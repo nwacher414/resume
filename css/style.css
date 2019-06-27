@@ -1,0 +1,87 @@
+/* Slider */
+.slider h3,
+.slider h5,
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+/* Parallax */
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+/* Clients */
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.pKiri, .pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 1s;
+}
+/* About */
+.pKanan {
+    transform: translate(50px, 0) rotate(-15deg);
+}
+
+.pKiri.pMuncul, .pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.pKiri2, .pKanan2, .pTengah {
+    opacity: 0;
+    transform: translate(-200px, 0);
+    transition: 1s;
+}
+/* Services */
+.pKanan2 {
+    transform: translate(200px, 0);
+}
+
+.pTengah {
+    transform: translate(0, -100px);
+}
+
+.pKiri2.pMuncul, .pKanan2.pMuncul, .pTengah.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/* Portfolio */
+.portfolioImg, .portfolioImg2 {
+    opacity: 0;
+    transform: translate(-200px, 0);
+    transition: 2s;
+}
+
+.portfolioImg2 {
+    transform: translate(200px, 0);
+}
+
+.portfolioImg.pMuncul, .portfolioImg2.pMuncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+/* Footer */
+section, footer {
+    padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
